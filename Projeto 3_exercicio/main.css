@@ -1,0 +1,73 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: yellow;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: black;
+    color: #fff;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand, 
+.navbar-brand:hover,
+.nav-destaque .nav-link.active:hover{
+    color: black;
+}
+
+.navbar-brand {
+    font-family: Handjet;
+    font-size: 100px;
+}
+
+.navbar-toggler {
+    background-color: yellow;
+    border-color: yellow;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 900px;
+}
+
+.section-title {
+    font-family: Handjet;
+}
+
+#sobre-a-loja, 
+#destaques {
+    background-color: rgba(228, 228, 34, 0.568);
+}
+
+#servicos img {
+    height: 400px;
+
+}
+
+.nav-destaque .nav-link.active ,
+#fale-conosco button {
+    background-color:rgba(228, 228, 34, 0.568) ;
+    color: black;
+}
+
+.nav-destaque .nav-link:hover {
+    color: turquoise;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media(max-width: 767px) {
+    .carousel-item img{
+        height: 280px;
+    }
+}
